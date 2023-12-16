@@ -9,6 +9,7 @@ import (
 
 var pl = fmt.Println
 
+// main is the entry point of the program.
 func main() {
 
 		vStr := "abcdefg"
@@ -19,13 +20,13 @@ func main() {
 			fmt.Printf("%d : %#U : %c\n", i , val ,val)
 		}
 
-		// TIME
+
 
 		now := time.Now();
 		pl(now.Year(), now.Day(), now.Month())
 
 
-		// randmon
+		// rand
  
 
 	
